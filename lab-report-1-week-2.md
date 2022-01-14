@@ -1,2 +1,2 @@
-# < **Installing VSCode**
+# > **Installing VSCode**
 ---
