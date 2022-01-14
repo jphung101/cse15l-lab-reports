@@ -4,6 +4,7 @@
 2. Download and launch VSCode, following all appropirate prompts and setting up all desired settings/preferences.
 3. When opened, **hit &nbsp;``Ctrl + ` ``**, this will **open** up the **Terminal** (which is where we will be running the commands to remotely connect).
 
+
 > # **Remotely Connecting**
 ---
 1. 
