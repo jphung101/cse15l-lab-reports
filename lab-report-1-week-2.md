@@ -60,7 +60,7 @@
 2. On **your computer**, **type `ssh-keygen`**
 3. When prompted to choose the destination file, simply hit `Enter`
 4. Also hit `Enter` when prompted to enter a passphrase (to login without a password)
-    - ***Note:*** If on **Windows**, follow [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation in addition](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) in addition
+    - ***Note:*** If on **Windows**, follow [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) in addition
 5. Copy the ***Public Key*** over to the `.ssh/authorized_keys` directory on the server
     - ***Public Key*** name is highlighted in picture below: ![](keygen.png) 
 
