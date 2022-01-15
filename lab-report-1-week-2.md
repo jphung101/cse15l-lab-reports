@@ -11,7 +11,7 @@
 ---
 1. ### **Account Setup:**
     - ***Note:*** If you already know your account credentials skip to **2. Remote Connection**
-    - **Navigate to [https://sdacs.ucsd.edu/~icc/index.php**](https://sdacs.ucsd.edu/~icc/index.php**), and under "Account Lookup" enter your Username and Student ID
+    - **Navigate** to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php**), and under "Account Lookup" enter your Username and Student ID
     - Under **"Additional Accounts"**, click on the account's name button relevant to the course you are taking
         - **Ex:** *"cs15lwi22aql"*
     ![](Accounts.png)
