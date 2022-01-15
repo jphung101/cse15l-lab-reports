@@ -62,10 +62,10 @@
 4. Also hit `Enter` when prompted to enter a passphrase (to login without a password)
     - ***Note:*** If on **Windows**, follow [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) in addition
 5. Copy the ***Public Key*** over to the `.ssh/authorized_keys` directory on the server
-    - ***Public Key*** name is highlighted in picture below: ![](keygen.png) 
+    - ***Public Key*** name is highlighted in the picture below: ![](keygen.png) 
 
 > # **Optimizing Remote Running**
 ---
 1. To run multiple commands in one line, you can simply add **`;` in between each command**![](commands.png)
-2. To run commands right after ssh-ing to the server, you can type them at the end and include them in `"[commands]"` as if `" "` were **not included**, then the `ssh` command would run, the command right after it, **log you out**, and execute the rest of the commands
+2. To run commands right after ssh-ing to the server, you can type them at the end and include them in `"[commands]"` as if `" "` were **not included**, then the `ssh` command would run, the command right after it, **log you out**, and execute the rest of the commands on the client (your computer)
 
