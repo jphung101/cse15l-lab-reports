@@ -1,6 +1,6 @@
 > # **Installing VSCode**
 ---
-1. Navigate to Visual Studio Code's website: https://code.visualstudio.com/
+1. Navigate to Visual Studio Code's website: (https://code.visualstudio.com/)
 2. Download and launch VSCode, following all appropirate prompts and setting up all desired settings/preferences
 3. When opened, **hit &nbsp;``Ctrl + ` ``**, this will **open** up the **Terminal** (which is where we will be running the commands to remotely connect)
 
@@ -10,7 +10,7 @@
 ---
 1. ### **Account Setup:**
     - ***Note:*** If you already know your account credentials skip to **2. Remote Connection**
-    - **Navigate to https://sdacs.ucsd.edu/~icc/index.php**, and under "Account Lookup" enter your Username and Student ID
+    - **Navigate to (https://sdacs.ucsd.edu/~icc/index.php**), and under "Account Lookup" enter your Username and Student ID
     - Under **"Additional Accounts"**, click on the account's name button relevant to the course you are taking
         - **Ex:** *"cs15lwi22aql"*
     ![](Accounts.png)
@@ -21,7 +21,7 @@
     - Click on "change your password" and do so
 
 2. ### **Remove Connection:**
-    - ***Note:*** If on **Windows**, navigate to: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse to **install OpenSSH**
+    - ***Note:*** If on **Windows**, navigate to: (https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to **install OpenSSH**
     - In the **terminal**, **type &nbsp; `ssh [username]@ieng6.ucsd.edu`**
     - Enter your password
         - ***Note:*** Even if you entered the **correct password**, you may **not be able to log in**. In this case **keep trying** and if the password prompt disappears, enter the above command again
@@ -52,14 +52,17 @@
 4. ***Optional:*** Type `ls` to see the file you copied over
 ![](scp1.png)
 
+---
+
 > # **Setting an SSH Key**
 ---
 1. You may have noticed that I am able to connect to the server **without password prompts**, well, that's because of **SSH Keys**
 2. On **your computer**, **type `ssh-keygen`**
 3. When prompted to choose the destination file, simply hit `Enter`
 4. Also hit `Enter` when prompted to enter a passphrase (to login without a password)
-    - ***Note:*** If on **Windows**, follow https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation in addition
+    - ***Note:*** If on **Windows**, follow (https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation in addition)
 5. Copy the ***Public Key*** over to the `.ssh/authorized_keys` directory on the server
     - ***Public Key*** name is highlighted in picture below: ![](keygen.png) 
+
 > # **Optimizing Remote Running**
 ---
