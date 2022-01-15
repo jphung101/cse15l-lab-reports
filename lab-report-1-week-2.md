@@ -3,6 +3,7 @@
 1. Navigate to Visual Studio Code's website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2. Download and launch VSCode, following all appropirate prompts and setting up all desired settings/preferences
 3. When opened, **hit &nbsp;``Ctrl + ` ``**, this will **open** up the **Terminal** (which is where we will be running the commands to remotely connect)
+![](terminal.png)
 
 ---
 
@@ -66,3 +67,6 @@
 
 > # **Optimizing Remote Running**
 ---
+1. To run multiple commands in one line, you can simply add **`;` in between each command**![](commands.png)
+2. To run commands right after ssh-ing to the server, you can type them at the end and include them in `"[commands]"` as if `" "` were **not included**, then the `ssh` command would run, the command right after it, **log you out**, and execute the rest of the commands
+
