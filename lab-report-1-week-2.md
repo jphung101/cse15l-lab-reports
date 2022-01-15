@@ -18,9 +18,9 @@
         - "cse15l" being the course name
         - "wi" being the quarter you are taking the class
         - "22" being the year you are taking the class
-        - "aql" being 3 unique characters for your account**
+        - "aql" being 3 unique characters for your account
     - Click on "change your password" and do so
-2. ### **Remove Connection:**
+2. ### **Remote Connection:**
     - ***Note:*** If on **Windows**, navigate to: [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to **install OpenSSH**
     - In the **terminal**, **type &nbsp; `ssh [username]@ieng6.ucsd.edu`**
     - Enter your password
