@@ -69,3 +69,24 @@
 1. To run multiple commands in one line, you can simply add **`;` in between each command**![](commands.png)
 2. To run commands right after ssh-ing to the server, you can type them at the end and include them in `"[commands]"` as if `" "` were **not included**, then the `ssh` command would run, the command right after it, **log you out**, and execute the rest of the commands on the client (your computer)
 
+
+***Example:*** *Saving a Local Java File (and its edits) to a Server and Running It*
+1. ### **Building the Command**
+    - Begin with copying the file over with `scp [filename].java [username]@ieng6.ucsd.edu:~/`
+    - Add a `;` at the end so another command can be run right after it:
+        - `scp [filename].java [username]@ieng6.ucsd.edu:~/;`
+    - As you are logged out, you must ssh again with `ssh [username]@ieng6.ucsd.edu`
+    - To have your desired commands (compiling and executing the java file) run on the server, enclose them in `" "` right after the `ssh [username]@ieng6.ucsd.edu`. Also, seperate them with a `";"` so they can run one after another without interruption
+        - `"javac [filename].java; java [filename]"`
+        - `ssh [username]@ieng6.ucsd.edu "javac [filename].java; java [filename]"`
+    - **In total, we now have:** 
+    
+    `scp [filename].java [username]@ieng6.ucsd.edu:~/; ssh [username]@ieng6.ucsd.edu "javac [filename].java; java [filename]"`
+    ![](eff.png)
+    - ***Note:*** This should take about **24 keystrokes to *set up***, assuming the above command is copied and all of the fill-ins are copied and pasted
+        - Each copy and paste action is considered 4 keystrokes
+2. ### **Running the Command**
+    - Once run *at least **once***, you can simply hit the `Up Arrow` to pull the most recent command back again (which should be the command built in **1**) and hit &nbsp; `Enter`
+    - ***Note:*** This should now take **2 keystrokes**
+
+
