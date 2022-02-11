@@ -12,13 +12,10 @@
     
         User (use your username)
 ![](config.png)
-
 2.  ### **Logging In:** 
 - You now should be able to log in by just entering `ssh ieng6`
 ![](ieng6login.png)
-
 3. ### **scp:** 
 - Now to `scp` files more easily, type:
     - `scp [filename] ieng6:~/`
-    
-![](ieng6scp.png)
+    ![](ieng6scp.png)
