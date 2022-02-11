@@ -21,4 +21,5 @@
 3. ### **scp:** 
 - Now to `scp` files more easily, type:
     - `scp [filename] ieng6:~/`
+    
     ![](ieng6scp.png)
